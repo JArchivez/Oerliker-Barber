@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oerliker Barber · Friesstrasse 21, Zürich</title>
+<meta name="description" content="Oerliker Barber, Friesstrasse 21, 8050 Zürich. Haarschnitt und Bartpflege. Telefon 043 437 77 91.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;800&display=swap" rel="stylesheet">
+<style>
+:root{--green:#0f2a24;--green2:#173a32;--brass:#d4b25f;--bone:#f1ece1;--mute:#b9c4bf;
+  --head:"Playfair Display",Georgia,"Times New Roman",serif;--body:"DM Sans",system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+*{box-sizing:border-box;margin:0}
+body{background:var(--green);color:var(--bone);font-family:var(--body);font-size:1.0625rem;line-height:1.65}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--brass);outline-offset:3px}
+.wrap{max-width:900px;margin:0 auto;padding:0 1.25rem}
+.top .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:1.1rem;padding-bottom:1.1rem}
+.logo{font-family:var(--head);font-weight:800;font-size:1.4rem;text-decoration:none}
+.top a.tel{font-weight:700;color:var(--brass);text-decoration:none}
+.hero{padding:4.5rem 0}
+.hero .eyebrow{color:var(--brass);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.85rem}
+.hero h1{font-family:var(--head);font-weight:800;font-size:clamp(2.6rem,9vw,5.2rem);line-height:1.05;margin:.75rem 0 1.25rem;max-width:13ch}
+.hero p{color:var(--mute);max-width:30rem;font-size:1.15rem;margin-bottom:2rem}
+.btn{display:inline-block;background:var(--brass);color:var(--green);font-weight:700;padding:.9rem 1.7rem;text-decoration:none;border-radius:999px}
+.btn:hover{background:#e3c778}
+.btn.ghost{background:transparent;color:var(--bone);border:2px solid var(--brass);margin-left:.5rem}
+.btn.ghost:hover{background:var(--brass);color:var(--green)}
+section{padding:3.5rem 0}
+h2{font-family:var(--head);font-weight:600;font-size:2rem;margin-bottom:1.25rem}
+.card{border:1px solid var(--brass);outline:1px solid var(--brass);outline-offset:5px;padding:1.5rem;max-width:36rem;color:var(--mute);margin:6px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem}
+.hours{border:1px solid var(--brass);outline:1px solid var(--brass);outline-offset:5px;padding:1.25rem 1.5rem;margin:6px;background:var(--green2)}
+table{border-collapse:collapse;width:100%}
+td{padding:.45rem 0;border-bottom:1px solid rgba(212,178,95,.25)}
+tr:last-child td{border-bottom:0}
+td:last-child{text-align:right}
+tr.today{color:var(--brass);font-weight:700}
+address{font-style:normal}
+.big{font-family:var(--head);font-size:1.8rem;font-weight:800;color:var(--brass);text-decoration:none}
+footer{background:#0a1f1a;color:var(--mute);padding:2rem 0;font-size:.9rem}
+footer a{color:var(--bone)}
+@media(max-width:720px){.grid{grid-template-columns:1fr;gap:2.5rem}.btn.ghost{margin:.75rem 0 0}}
+</style>
+</head>
+<body>
+<div class="top">
+  <div class="wrap">
+    <a class="logo" href="#">Oerliker Barber</a>
+    <a class="tel" href="tel:+41434377791">043 437 77 91</a>
+  </div>
+</div>
+
+<main>
+  <div class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Friesstrasse 21 · Zürich Oerlikon</div>
+      <h1>Haarschnitt und Bart, sauber gemacht.</h1>
+      <p>Dein Barber in Oerlikon. Ruf an oder komm vorbei, auch am Abend bis 20:00 Uhr.</p>
+      <a class="btn" href="tel:+41434377791">Termin anrufen</a>
+      <a class="btn ghost" href="#kontakt">So findest du uns</a>
+    </div>
+  </div>
+
+  <section id="preise">
+    <div class="wrap">
+      <h2>Leistungen &amp; Preise</h2>
+      <div class="card">Hier folgt die Preisliste: Haarschnitt, Bart, Kombi und weitere Leistungen. Der Inhaber liefert die Angaben.</div>
+    </div>
+  </section>
+
+  <section id="kontakt" style="padding-top:0">
+    <div class="wrap grid">
+      <div>
+        <h2>Öffnungszeiten</h2>
+        <div class="hours">
+          <table id="hours">
+            <tr data-d="1"><td>Montag</td><td>12:00 – 20:00</td></tr>
+            <tr data-d="2"><td>Dienstag</td><td>9:00 – 20:00</td></tr>
+            <tr data-d="3"><td>Mittwoch</td><td>9:00 – 20:00</td></tr>
+            <tr data-d="4"><td>Donnerstag</td><td>9:00 – 20:00</td></tr>
+            <tr data-d="5"><td>Freitag</td><td>9:00 – 20:00</td></tr>
+            <tr data-d="6"><td>Samstag</td><td>9:00 – 19:00</td></tr>
+            <tr data-d="0"><td>Sonntag</td><td>Geschlossen</td></tr>
+          </table>
+        </div>
+      </div>
+      <div>
+        <h2>Kontakt</h2>
+        <address>
+          Oerliker Barber<br>
+          Friesstrasse 21<br>
+          8050 Zürich<br><br>
+          <a class="big" href="tel:+41434377791">043 437 77 91</a>
+        </address>
+        <p style="margin-top:1rem"><a href="https://www.google.com/maps/search/?api=1&amp;query=Friesstrasse+21%2C+8050+Z%C3%BCrich">Route in Google Maps öffnen</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    © 2026 Oerliker Barber · <a href="#">Impressum</a> · <a href="#">Datenschutz</a><br>
+    Entwurf: Angaben noch nicht vom Inhaber bestätigt. Preise folgen.
+  </div>
+</footer>
+
+<script>
+  var row = document.querySelector('#hours tr[data-d="' + new Date().getDay() + '"]');
+  if (row) row.className = 'today';
+</script>
+</body>
+</html>
